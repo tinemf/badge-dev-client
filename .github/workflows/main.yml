@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: tinemf/badge-dev-test@v2
+      - uses: tinemf/badge-dev-test@v3
         with:
           output-dir: generated
 
