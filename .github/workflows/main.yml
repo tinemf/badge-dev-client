@@ -1,0 +1,21 @@
+name: Generate badges
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: tinemf/badge-dev-test@v1
+        with:
+          output-dir: generated
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: generated/
