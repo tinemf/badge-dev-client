@@ -12,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: tinemf/badge-dev-test@v3
+      - uses: tinemf/badge-dev-test@v4
         with:
           output-dir: generated
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: generated/
 
