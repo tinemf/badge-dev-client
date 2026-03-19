@@ -1,0 +1,29 @@
+{
+  "projectColor": "fdb737",
+  "urls": [
+
+      {
+        "url": "https://asistent.medifit.si/v3/sl/assets/app-info.json",
+        "label": "asistent",
+        "key": "buildVersion"
+      },
+      {
+        "url": "https://test-asistent.medifit.si/v3/sl/assets/app-info.json",
+        "label": "asistent:TEST",
+        "key": "buildVersion"
+      },
+      {
+        "url": "https://qa1.test.asistent.medifit.si/v3/sl/assets/app-info.json",
+        "label": "asistent:QA1",
+        "key": "buildVersion"
+      },
+      {
+        "url": "https://qa2.test.asistent.medifit.si/v3/sl/assets/app-info.json",
+        "label": "asistent:QA2",
+        "key": "buildVersion"
+      }
+
+  ],
+  "packages": null,
+  "files": null
+}
