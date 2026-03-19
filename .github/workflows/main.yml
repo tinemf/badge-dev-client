@@ -16,6 +16,10 @@ jobs:
         with:
           output-dir: generated
 
-      - uses: actions/upload-pages-artifact@v3
+      # 3️⃣ Deploy to GitHub Pages
+      - name: Deploy to Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
         with:
+          # the directory to deploy
           path: generated/
